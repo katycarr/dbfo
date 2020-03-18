@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import Navbar from './navbar';
 import SkipLinks from './skip-links';
 import Names from './names';
-import SocialLinks from './social-links';
 
 import scrollArrow from '../assets/icons/scroll-top.svg';
 import scrollArrowWhite from '../assets/icons/scroll-top-white.svg';
@@ -206,7 +205,6 @@ class Letter extends Component {
           </Link>
         </div>
         <Names />
-        <SocialLinks />
       </div>
     );
   }
