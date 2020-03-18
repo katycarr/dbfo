@@ -1,0 +1,27 @@
+.social-links {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  background-color: $darkBlue;
+  height: 48px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: solid 1px #979797;
+  left: 50%;
+  transform: translateX(-50%);
+  &__link {
+    line-height: 48px;
+  }
+  &__icon {
+    // white
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(276deg) brightness(106%) contrast(102%);
+    height: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: middle;
+    &:hover {
+      // $lightRed
+      filter: brightness(0) saturate(100%) invert(21%) sepia(74%) saturate(3460%) hue-rotate(342deg) brightness(105%) contrast(74%);
+    }
+  }
+}

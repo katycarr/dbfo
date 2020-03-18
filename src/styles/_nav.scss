@@ -1,0 +1,42 @@
+.nav {
+  padding: 50px;
+  text-align: right;
+  &__logo {
+    height: 17px;
+    float: left;
+  }
+  &__link {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $darkBlue;
+    margin-right: 64px;
+    text-align: right;
+    transition: 0.3s;
+    border-bottom: 4px solid rgba(0,0,0,0);
+    &:hover {
+      border-bottom: 4px solid $red;
+    }
+    &--selected {
+      border-bottom: 4px solid $lightRed;
+    }
+  }
+  &__menu {
+    display: none;
+  }
+  @media (max-width: $mobileBreakpoint) {
+    padding: 25px;
+    height: 24px;
+    &__logo {
+      height: 13px;
+      padding: 5.5px 0;
+    }
+    &__link {
+      display: none;
+    }
+    &__menu {
+      display: inline-block;
+    }
+  }
+}

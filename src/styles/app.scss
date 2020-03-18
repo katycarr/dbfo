@@ -1,0 +1,26 @@
+@import 'variables.scss';
+@import 'home.scss';
+@import 'nav.scss';
+@import 'letter.scss';
+@import 'mobile-menu.scss';
+@import 'social.scss';
+
+body {
+  background-color: $iceBlue;
+  font-family: 'Avenir Next', sans-serif;
+  color: $darkBlue;
+}
+
+.link {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $darkBlue;
+  border-bottom: 4px solid $lightRed;
+  transition: 0.3s;
+  font-weight: bold;
+  &:hover {
+    color: $red;
+    border-bottom-color: $red;
+  }
+}

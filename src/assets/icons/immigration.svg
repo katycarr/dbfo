@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icons/Immigration</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Immigration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="map" transform="translate(1.000000, 2.000000)" stroke="#1A1B33" stroke-width="2">
+            <polygon id="Path" points="0 4 0 20 7 16 15 20 22 16 22 0 15 4 7 0"></polygon>
+            <line x1="7" y1="0" x2="7" y2="16" id="Path"></line>
+            <line x1="15" y1="4" x2="15" y2="20" id="Path"></line>
+        </g>
+    </g>
+</svg>
