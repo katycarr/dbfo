@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import Navbar from './navbar';
 import SkipLinks from './skip-links';
@@ -7,6 +8,8 @@ import Names from './names';
 
 import scrollArrow from '../assets/icons/scroll-top.svg';
 import scrollArrowWhite from '../assets/icons/scroll-top-white.svg';
+
+smoothscroll.polyfill();
 
 const petLink = 'https://sign.moveon.org/petitions/sign-our-letter-to-vice-president-biden-we-have-some-plans-for-that';
 
