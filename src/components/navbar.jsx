@@ -7,6 +7,8 @@ import logo from '../assets/primary-logo.svg';
 import menuIcon from '../assets/icons/menu.svg';
 import Menu from './menu';
 
+const petLink = 'https://sign.moveon.org/petitions/sign-our-letter-to-vice-president-biden-we-have-some-plans-for-that';
+
 class Navbar extends Component {
   constructor(props) {
     super(props); 
@@ -31,15 +33,20 @@ class Navbar extends Component {
         <Link to='/letter' className={this.linkClass('letter')}>
           The Letter
         </Link>
-        <Link to='/petition' className={this.linkClass('petition')}>The Petition</Link>
-        <img
-          src={menuIcon}
-          alt="menu"
-          onClick={() => this.setState({ showMenu: true })}
-          className="nav__menu"
-          role="button"
-          tabIndex={0}
-        />
+        {
+          //<Link to='/petition' className={this.linkClass('petition')}>The Petition</Link>
+        }
+        <a href={petLink} target="_blank" className={this.linkClass('petition')} rel="noopener noreferrer">The Petition</a>
+        {!this.state.showMenu &&
+          <img
+            src={menuIcon}
+            alt="menu"
+            onClick={() => this.setState({ showMenu: true })}
+            className="nav__menu"
+            role="button"
+            tabIndex={0}
+          />
+        }
         {this.state.showMenu && <Menu closeMenu={() => this.setState({ showMenu: false })} />}
       </div>
     );

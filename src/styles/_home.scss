@@ -1,7 +1,7 @@
 .home {
-  @media (max-width: $mobileBreakpoint) {
-    position: absolute;
-  }
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
   &__bg {
     pointer-events: none;
     position: absolute;
@@ -23,12 +23,16 @@
     }
   }
   &__content {
-    width: 550px;
-    position: relative;
-    left: 120px;
     text-align: left;
+    @media (min-width: $mobileBreakpoint) {
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+      width: 50%;
+      max-width: 550px;
+      left: 120px;
+    }
     @media (max-width: $mobileBreakpoint) {
-      width: unset;
       left: 0;
       margin: 75px 30px 650px 30px;
     }

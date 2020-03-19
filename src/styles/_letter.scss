@@ -58,7 +58,8 @@
     bottom: 24px;
     text-align: center;
     cursor: pointer;
-    @media (max-width: $mobileBreakpoint) {
+    box-sizing: border-box;
+    @media (max-width: $mediumBreakpoint) {
       background-color: $lightRed;
       width: 100%;
       left: 0;
@@ -67,12 +68,12 @@
       bottom: 0;
     }
     &__arrow {
-      @media (min-width: $mobileBreakpoint + 1) {
+      @media (min-width: $mediumBreakpoint + 1) {
         &--white {
           display: none;
         }
       }
-      @media (max-width: $mobileBreakpoint) {
+      @media (max-width: $mediumBreakpoint) {
         &--red {
           display: none;
         }

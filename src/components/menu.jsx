@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import close from '../assets/icons/close.svg';
 
+const petLink = 'https://sign.moveon.org/petitions/sign-our-letter-to-vice-president-biden-we-have-some-plans-for-that';
+
 class Menu extends Component {
   render() {
     return (
@@ -20,7 +22,10 @@ class Menu extends Component {
         <div className="menu__links">
           <Link to="/" className="menu__link">Home</Link>
           <Link to="/letter" className="menu__link">The Letter</Link>
-          <Link to="/petition" className="menu__link menu__link--last">The Petition</Link>
+          {
+            //<Link to="/petition" className="menu__link menu__link--last">The Petition</Link>
+          }
+          <a href={petLink} target="_blank" className="menu__link menu__link--last" rel="noopener noreferrer">The Petition</a>
         </div>
       </div>
     );

@@ -9,6 +9,7 @@
   border: solid 1px #979797;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
   &__link {
     line-height: 48px;
   }

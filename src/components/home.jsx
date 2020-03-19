@@ -6,6 +6,7 @@ import SocialLinks from './social-links';
 import background from '../assets/liberty.png';
 import mobileBg from '../assets/liberty_mobile.png';
 
+const petLink = 'https://sign.moveon.org/petitions/sign-our-letter-to-vice-president-biden-we-have-some-plans-for-that';
 class Home extends Component {
   render() {
     return (
@@ -27,7 +28,10 @@ class Home extends Component {
             that work for everyone in America. 
           </div>
           <Link to="/letter" className="link home__link home__link--first">Read the letter</Link>
-          <Link to="/petition" className="link home__link">Sign the petition</Link>
+          {
+            //<Link to="/petition" className="link home__link">Sign the petition</Link>
+          }
+          <a href={petLink} target="_blank" className="link home__link" rel="noopener noreferrer">Sign the petition</a>
         </div>
         <SocialLinks />
       </div>

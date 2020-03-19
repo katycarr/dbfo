@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Navbar from './navbar';
 import SkipLinks from './skip-links';
@@ -7,6 +7,8 @@ import Names from './names';
 
 import scrollArrow from '../assets/icons/scroll-top.svg';
 import scrollArrowWhite from '../assets/icons/scroll-top-white.svg';
+
+const petLink = 'https://sign.moveon.org/petitions/sign-our-letter-to-vice-president-biden-we-have-some-plans-for-that';
 
 class Letter extends Component {
   constructor() {
@@ -40,7 +42,7 @@ class Letter extends Component {
     return (
       <div
         className="letter__scroll"
-        onClick={() => window.scrollTo(0, 0)}
+        onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}
         role="button"
         tabIndex={0}
       >
@@ -200,9 +202,19 @@ class Letter extends Component {
           </p>
           <p className="letter__para">Sincerely,</p>
           <h3 className="letter__sig">Dream Big Fight On</h3>
-          <Link to="/petition" className="link">
+          {
+            // <Link to="/petition" className="link">
+            //   Click here to sign this letter and see the full list of signatories.
+            // </Link>
+          }
+          <a
+            href={petLink}
+            target="_blank"
+            className="link"
+            rel="noopener noreferrer"
+          >
             Click here to sign this letter and see the full list of signatories.
-          </Link>
+          </a>
         </div>
         <Names />
       </div>
