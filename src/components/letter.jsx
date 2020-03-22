@@ -97,8 +97,13 @@ class Letter extends Component {
           </p>
           <h3 id="corruption" className="letter__sub">Corruption</h3>
           <p className="letter__para">
-            Senator Warren framed her campaign around dismantling the corrupt channels
-            that perpetuate structural inequity and prevent any meaningful reform. Your
+              Senator Warren framed her campaign around <a
+                href="https://elizabethwarren.com/plans/end-washington-corruption" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+              >dismantling the corrupt channels that perpetuate structural inequity and prevent any meaningful reform</a>. 
+            Your
             plan to establish the Commission on Federal Ethics aligns with Senator
             Warren’s proposed U.S. Office of Public Integrity, which would oversee efforts
             to restore transparency to our government. We ask that you go further: support
@@ -113,8 +118,12 @@ class Letter extends Component {
           <p className="letter__para">
             We applaud your commitment to a moratorium on deportations during your first
             100 days as president, but further action is needed to eliminate the cruelty 
-            and abuse perpetrated in the name of immigration enforcement. We need 
-            comprehensive reform of our immigration justice system, and we must start 
+            and abuse perpetrated in the name of immigration enforcement. We need <a
+                href="https://elizabethwarren.com/plans/immigration" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+              >comprehensive reform of our immigration justice system</a>, and we must start 
             with decriminalizing immigration. To prevent future abuses, we urge you to 
             commit to the establishment of professional, independent Article I immigration
             courts, and to provide access to counsel in all immigration courts. You have
@@ -132,9 +141,13 @@ class Letter extends Component {
             We are supportive of public service, but strongly believe that across-the-board 
             college loan debt reduction is the best approach, especially for those with 
             increased barriers (poor and working-class students, students with family 
-            obligations, and working students). We ask you to adopt Senator Warren’s 
-            approach and cancel student loan debt through executive action, immediately 
-            enabling 95% of student loan debt holders to pursue their dreams.
+            obligations, and working students). We ask you to adopt <a
+                href="https://elizabethwarren.com/plans/student-loan-debt-day-one" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >Senator Warren’s approach</a> and cancel student loan debt through executive action,
+            immediately enabling 95% of student loan debt holders to pursue their dreams.
           </p>
           <h3 id="childcare" className="letter__sub">Universal Child Care</h3>
           <p className="letter__para">
@@ -142,8 +155,17 @@ class Letter extends Component {
             of children with access to quality care and early learning. It also creates 
             millions of well-paying jobs for child care workers and early education teachers,
             many of whom are women of color. Research shows that every dollar spent on 
-            quality early education saves seven dollars in the long run. We encourage you 
-            to adopt Senator Warren’s plan, which mandates that universal child care be 
+            quality early education saves <a
+                href="https://voxeu.org/article/long-term-benefits-quality-early-childcare" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >seven dollars in the long run</a> . We encourage you to adopt <a
+                href="https://elizabethwarren.com/plans/universal-child-care" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >Senator Warren’s plan</a>, which mandates that universal child care be 
             free to any family that earns less than 200 percent of the federal poverty line.
             Crucially, the plan also establishes a partnership between the federal government 
             and local providers to offer a network of early childhood options — including 
@@ -155,7 +177,12 @@ class Letter extends Component {
             your work on the ADA, the ADAAA, IDEA, and VAWA. It is critical that you 
             collaborate with disability rights leaders and advocates moving forward to form
             a comprehensive disability rights plan. We ask that you use Senator Warren’s 
-            plan for Protecting the Rights and Equality of Americans With Disabilities as a 
+            plan for <a
+                href="https://elizabethwarren.com/plans/disability-rights-and-equality" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >Protecting the Rights and Equality of Americans With Disabilities</a> as a 
             model. This includes our ask that you to commit to combating discrimination in 
             the labor market and workplace, ending the subminimum wage, fully funding the 
             Office of Disability Employment Policy, improving SSI and SSDI programs, breaking
@@ -175,7 +202,12 @@ class Letter extends Component {
             These plans have a price tag. We believe in fiscal responsibility — every 
             American should pay their fair share. We believe ultra-millionaires, who 
             benefit most from our country’s infrastructure, should invest a little more in 
-            our country. Therefore, we ask you to adopt Senator Warren’s two cent wealth tax,
+            our country. Therefore, we ask you to adopt <a
+                href="https://elizabethwarren.com/plans/ultra-millionaire-tax" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >Senator Warren’s two cent wealth tax</a>,
             which requires those Americans lucky enough to have vast fortunes to pay a two 
             cent tax on every dollar of net worth above $50 million. Over 10 years, this tax
             will raise an estimated $3.75 trillion that we can reinvest in working families 
@@ -186,7 +218,12 @@ class Letter extends Component {
             Though we have highlighted plans that have received less national attention above,
             we also must stress the urgent need to address climate change and health care.
             We firmly believe that healthcare is a human right, and that climate change is
-            an existential threat. Senator Warren famously has a plan for everything. Her
+            an existential threat. Senator Warren famously has a <a
+                href="https://elizabethwarren.com/plans" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="letter__inline-link"
+            >plan for everything</a>. Her
             commitment to elevating progressive and pragmatic plans is what drew many of 
             this letter’s authors to volunteer for her campaign. Senator Warren appreciated,
             however, that no one has a monopoly on good ideas; she reached out to former 

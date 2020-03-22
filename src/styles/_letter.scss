@@ -86,6 +86,16 @@
       line-height: 1;
     }
   }
+  &__inline-link {
+    color: unset;
+    text-decoration-color: $lightRed;
+    text-underline-position: under;
+    transition: 0.3s;
+    &:hover {
+      color: $red;
+      text-decoration-color: $red;
+    }
+  }
 }
 
 .skip-link {
