@@ -21,11 +21,11 @@ class Home extends Component {
             Vice President Joe Biden to take up many of Elizabeth's plans.
           </div>
           <div className="home__sub">
-            We invite you to join us in signing this open letter to the Democratic
-            presidential frontrunner, about progressive issues that we need our next
-            leader to prioritize. While our letter was written by volunteers from 
-            Elizabeth Warren's campaign, our goal is to provide inclusive solutions 
-            that work for everyone in America. 
+            We invite you to join us in signing our open letter to the Democratic
+            presidential frontrunner, urging him to include progressive plans to 
+            unite the party and move our country forward. While our letter was written 
+            by volunteers from Senator Elizabeth Warren's presidential campaign, our 
+            goal is to advocate for inclusive solutions that work for everyone in America. 
           </div>
           <Link to="/letter" className="link home__link home__link--first">Read the letter</Link>
           {
