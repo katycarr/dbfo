@@ -2,6 +2,9 @@
   position: absolute;
   width: 100%;
   min-height: 100%;
+  @media (min-width: $mobileBreakpoint) {
+    overflow: hidden;
+  }
   &__bg {
     pointer-events: none;
     position: absolute;
@@ -11,6 +14,12 @@
     object-fit: cover;
     left: 0;
     bottom: 0;
+    @media (min-width: $mediumBreakpoint + 1) {
+      height: calc(100% + 200px);
+      top: 0;
+      bottom: unset;
+      overflow: hidden;
+    }
     &--mobile {
       @media (min-width: $mobileBreakpoint + 1) {
         display: none;
