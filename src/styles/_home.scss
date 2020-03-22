@@ -20,6 +20,9 @@
       bottom: unset;
       overflow: hidden;
     }
+    @media (min-width: $fourKBreakpoint) {
+      height: calc(100% + 300px);
+    }
     &--mobile {
       @media (min-width: $mobileBreakpoint + 1) {
         display: none;

@@ -1,6 +1,7 @@
 .nav {
   padding: 50px;
   text-align: right;
+  white-space: nowrap;
   &__logo {
     height: 17px;
     float: left;
@@ -20,6 +21,9 @@
     }
     &--selected {
       border-bottom: 4px solid $lightRed;
+    }
+    @media (max-width: $mediumBreakpoint) {
+      margin-right: 40px;
     }
   }
   &__menu {

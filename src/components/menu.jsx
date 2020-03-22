@@ -22,6 +22,7 @@ class Menu extends Component {
         <div className="menu__links">
           <Link to="/" className="menu__link">Home</Link>
           <Link to="/letter" className="menu__link">The Letter</Link>
+          <a href="https://medium.com/@dreambigfighton" target="_blank" className="menu__link"  rel="noopener noreferrer">Updates</a>
           {
             //<Link to="/petition" className="menu__link menu__link--last">The Petition</Link>
           }

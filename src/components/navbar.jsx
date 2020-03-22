@@ -36,6 +36,7 @@ class Navbar extends Component {
         {
           //<Link to='/petition' className={this.linkClass('petition')}>The Petition</Link>
         }
+        <a href="https://medium.com/@dreambigfighton" target="_blank" className={this.linkClass('medium')} rel="noopener noreferrer">Updates</a>
         <a href={petLink} target="_blank" className={this.linkClass('petition')} rel="noopener noreferrer">The Petition</a>
         {!this.state.showMenu &&
           <img
