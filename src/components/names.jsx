@@ -23,7 +23,6 @@ const Names = () => {
       Toni Estaville<br/>
       Courtney Fay<br/>
       Gabi Gadbois<br/>
-      Lindsay Paige Galperson<br/>
       Elise Goldstein<br/>
       Monica Haddock<br/>
       Garrett Hall<br/>
